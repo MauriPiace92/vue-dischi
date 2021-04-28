@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+ width: 100%;
+}
+
+.app-wrapper{
+    height: 100vh;
+    background-color: #1f2e3c;
+
+}
+
+header{
+    width: 100%;
+    background-color: #2e3b47;
+    padding: 10px 20px;
+}
+
+.img-container{
+    width: 3%;
+}
+
+/* MAIN CONTAINER */
+.main-container{
+    background-color: #1f2e3c;
+    width: 100%;
+    padding: 50px 40px;
+}
+
+.cd-card{
+    text-align: center;
+    width: calc( ( 100% / 6) - 40px );
+    margin-bottom: 20px;
+    background-color: #2e3b47;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cds{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cd-album{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cd-author,
+.cd-year{
+    color: gray;
+    font-size: 18px;
+    margin: 5px;
+}
